@@ -1,0 +1,296 @@
+.heroSection {
+  background-color: #FFD196;
+  max-height: 600px;
+  max-width: 100vw;
+  padding: 40px;
+  position: relative;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.title {
+  width: 200px;
+  height: 70px;
+}
+
+.nav {
+  gap: 40px;
+  font-weight: 600
+}
+
+.nav nav {
+  cursor: pointer;
+}
+
+.navBar {
+  justify-content: space-between
+}
+
+.content {
+  margin-top: 50px;
+}
+
+.juiceImage {
+  max-height: 510px;
+  gap: 30px;
+}
+
+.mainTitle {
+  font-size: 96px;
+  font-weight: bold;
+  margin: 0px;
+  margin-left: 6px;
+  margin-bottom: -20px;
+}
+
+.mainDescription {
+  font-size: 96px;
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0px;
+}
+
+.mainCaption {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  color: #6F7074;
+  margin: 0px;
+  margin-left: 6px;
+
+}
+
+.wave {
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.waveReverse {
+  width: 100%;
+  transform: rotate(180deg)
+}
+
+.delivery {
+  margin: 200px 0 50px 0;
+  align-items: center;
+  gap: 40px;
+  justify-content: center;
+
+}
+
+.delivery section {
+  align-items: center;
+  gap: 16px;
+}
+
+.delivery h4 {
+  margin: 0;
+}
+
+.delivery p {
+  margin: 12px 0 0 0;
+}
+
+.deliveryImage {
+  width: 80px;
+  height: 80px;
+}
+
+.menu {
+  background-color: #FFD196;
+  margin-top: -20px;
+  padding: 0 32px 32px 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.secondaryTitle {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.menu .secondaryTitle {
+  text-align: center;
+}
+
+.ternaryTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0
+}
+
+.items {
+  margin: 20px 0;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.item p {
+  text-align: center;
+  margin: 0;
+}
+
+.item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 16px
+}
+
+.footer {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 32px
+}
+
+.address p {
+  margin: 0;
+}
+
+.address p:first-child {
+  font-weight: bold;
+}
+
+.address p:last-child {
+  max-width: 200px;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .content {
+    justify-content: space-around
+  }
+
+  .mainTitle {
+    font-size: 70px;
+  }
+
+  .mainDescription {
+    font-size: 53px;
+  }
+
+  .mainCaption {
+    font-size: 20px;
+  }
+
+  .juiceImage {
+    max-height: 510px;
+  }
+}
+
+@media screen and (min-width: 758px) and (max-width: 1023px) {
+  .content {
+    justify-content: space-around
+  }
+
+  .mainTitle {
+    font-size: 45px;
+    margin: 0px; 
+  }
+
+  .mainDescription {
+    font-size: 30px;
+  }
+
+  .mainCaption {
+    font-size: 10px;
+    margin: 0px; 
+  }
+
+  .juiceImage {
+    max-height: 310px;
+  }
+
+  .delivery {
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: start;
+    align-items: center;
+  }
+
+}
+
+@media screen and (max-width: 757px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .juiceImage {
+    width: 80%;
+    margin: auto;
+    display: flex;
+  }
+
+  .mainTitle {
+    font-size: 25px;
+    margin: 0px; 
+  }
+
+  .mainDescription {
+    font-size: 20px;
+  }
+
+  .mainCaption {
+    font-size: 12px;
+    margin: 0px; 
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .heroSection {
+    padding: 20px; 
+  }
+
+  .title {
+    max-width: 100px;
+  }
+
+  .content {
+    margin-top: 10px;
+    align-items: start;
+    gap: 30px;
+  }
+
+  .delivery {
+    margin: 80px 20px 40px 20px;
+    flex-direction: column;
+  }
+
+  .menu {
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .items {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .details {
+    flex-direction: column;
+  }
+}
